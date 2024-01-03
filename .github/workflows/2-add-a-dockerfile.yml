@@ -60,7 +60,7 @@ jobs:
       - name: Verify Dockerfile contents
         uses: skills/action-check-file@v1
         with:
-          file: "Dockerfile"
+          file: "./../../Dockerfile.yml"
           search: "FROM nginx:1.24-alpine"
 
       # In README.md, switch step 2 for step 3.
